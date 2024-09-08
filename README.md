@@ -1,5 +1,7 @@
 # Terminal Sorting Algorithm Visualizer
 
+![Sorting Visualizer](./media/sorting.gif)
+
 ## Project Description
 
 This C++ project provides a visual representation of various sorting algorithms in the terminal. It aims to help users understand how different sorting algorithms work by displaying the sorting process step-by-step.
@@ -19,7 +21,7 @@ This C++ project provides a visual representation of various sorting algorithms 
 
 - make
 - cd build
-- cmake -S .. -B . -D-DENABLE_DEBUG=ON
+- cmake -S .. -B . -DENABLE_DEBUG=ON
 - cmake --build .
 - cd app
 - ./sorter
