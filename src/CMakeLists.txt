@@ -1,0 +1,1 @@
+add_library(${SORT_LIBRARY} STATIC "sort.cpp")
