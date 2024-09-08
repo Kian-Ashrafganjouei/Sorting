@@ -1,6 +1,6 @@
 # Terminal Sorting Algorithm Visualizer
 
-![Sorting Visualizer](./media/sorting.gif)
+![Sorting Visualizer](./media/insertion.gif)
 
 ## Project Description
 

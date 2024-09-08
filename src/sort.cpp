@@ -5,6 +5,7 @@
 #include <thread>
 
 #define SLEEP_PERIOD_MS 30
+static const std::string element = "|";
 
 void Sort::visualizeArray(const std::vector<int> &vect, int highlightIndex,
                           int compareIndex) {
@@ -15,11 +16,11 @@ void Sort::visualizeArray(const std::vector<int> &vect, int highlightIndex,
     for (size_t i = 0; i < vect.size(); i++) {
       if (vect[i] >= height) {
         if (static_cast<int>(i) == highlightIndex)
-          std::cout << "\033[1;31m-\033[0m"; // Red for current element
+          std::cout << "\033[1;31m" << element << "\033[0m"; // Red for current element
         else if (static_cast<int>(i) == compareIndex)
-          std::cout << "\033[1;32m-\033[0m"; // Green for compare element
+          std::cout << "\033[1;32m" << element << "\033[0m"; // Green for compare element
         else
-          std::cout << "-";
+          std::cout << element;
       } else {
         std::cout << " ";
       }
